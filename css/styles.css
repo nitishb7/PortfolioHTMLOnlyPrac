@@ -3,8 +3,62 @@
     font-family: poppins, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .navbar {
-  /* background-color: lightblue; 
+  margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 60px;
+    padding: 0 70px;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+}
+
+.center{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.center a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    text-decoration: none;
+    background-color: #00a6d6;
+    color: white;
+    border: none;
+    border-radius: 22px;
+    padding: 6px 18px;
+    font-size: 16px;
+}
+
+.intro{
+  margin: 15px;
+}
+
+.about{
+  margin: 15px;
+}
+
+.Img{
+margin: 15px;
+display: grid;
+}
+
+/* .navbar {
+  background-color: lightblue; 
   padding-right: 15px;
   padding-left: ; 
   display: block;
@@ -14,7 +68,7 @@
   position: fixed;   stays at top 
   top: 0;
   left: 0;
-  width: 100%; */
+  width: 100%; 
     background-color: lightblue;
     left: 0;
-}
+} */

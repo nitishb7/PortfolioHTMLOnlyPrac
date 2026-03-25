@@ -1,0 +1,12 @@
+*{
+    text-decoration: none;
+    font-family: poppins, sans-serif; 
+}
+
+section.tab1{
+
+    background-color: lightblue;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
