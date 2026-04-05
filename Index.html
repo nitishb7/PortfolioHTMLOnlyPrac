@@ -7,62 +7,79 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
+        <!-- Main site navigation -->
         <nav>
             <div class="navbar">
                 <div class="logo"><strong>Nitish Baidya</strong></div>
                 <div class="center">
                     <a href="education.html">Education</a>
                     <a href="projects.html">Projects</a>
+                    <a href="skills.html">Skills</a>
                     <a href="experience.html">Experience</a>
                     <a href="contact.html">Contact</a>
                 </div>
                 <div class="button">
-                    <button>Contact</button>
+                    <a href="contact.html" class="button-link">Contact</a>
                 </div>
             </div>
         </nav>
 
-        <section class="intro">
-        </section>
-
-        <section class="profile-row">
-            <div class="Img">
-                <img src="img/profile2.png" alt="Profile Picture">
-            </div>
-            <div class="text-column">
-                <div class="about">
-                    <header>
-                        <h1>Hello, I am Nitish Baidya</h1>
-                    </header>
-                    <p>Web<br>Developer </p>
+        <main>
+            <!-- Intro section with profile image and About Me content -->
+            <section class="profile-row">
+                <div class="Img">
+                    <img src="img/profile2.png" alt="Portrait of Nitish Baidya">
                 </div>
-                <div class="info">
-                    <p>
-                        I'm <strong>a Computer Science student</strong>
-                        with a strong passion for building impactful and
-                        user-focused software solutions. I enjoy working across
-                        both front-end and back-end technologies, with experience
-                        in Java, Python, JavaScript, and modern frameworks like
-                        React and Next.js.
-                    </p>
+                <div class="text-column">
+                    <div class="about">
+                        <header>
+                            <h1>Hello, I am Nitish Baidya</h1>
+                        </header>
+                        <p>Web<br>Developer</p>
+                    </div>
+                    <section class="info">
+                        <h2>About Me</h2>
+                        <p>
+                            I'm <strong>a Computer Science student</strong>
+                            with a strong passion for building impactful and
+                            user-focused software solutions. I enjoy working across
+                            both front-end and back-end technologies, with experience
+                            in Java, Python, JavaScript, and modern frameworks like
+                            React and Next.js.
+                        </p>
+                        <p id="more-about-text" class="more-about-text" hidden>
+                            My current goal is to keep improving as a developer by
+                            building practical projects, learning modern web tools,
+                            and creating portfolio work that shows both clean design
+                            and problem-solving ability.
+                        </p>
+                    </section>
+                    <div class="action-buttons">
+                        <a href="contact.html#contact-section" class="button-link">Hire Me</a>
+                        <button type="button" id="toggle-about-btn">More About Me</button>
+                        <button type="button" id="download-resume-btn">Download CV</button>
+                    </div>
                 </div>
-                <div class="action-buttons">
-                    <button type="button">Get in touch</button>
-                    <button type="button" id="download-resume-btn">Download CV</button>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="hobbies">
-            <h2>Hobbies</h2>
-            <ul>
-                <li>Playing soccer</li>
-                <li>Playing video games</li>
-                <li>Traveling to new places</li>
-                <li>Reading autobiographies</li>
-            </ul>
-        </section>
+            <!-- Personal interests section -->
+            <section class="hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Playing soccer</li>
+                    <li>Playing video games</li>
+                    <li>Traveling to new places</li>
+                    <li>Reading autobiographies</li>
+                </ul>
+            </section>
+        </main>
 
-        <script src="js/main.js"></script>
+        <!-- Simple footer note -->
+        <footer class="site-footer">
+            <p>Built with HTML, CSS, and JavaScript.</p>
+        </footer>
+
+        <!-- Shared JavaScript interactions -->
+        <script src="js/script.js"></script>
     </body>
 </html>

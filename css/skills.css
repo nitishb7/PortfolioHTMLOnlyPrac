@@ -1,3 +1,87 @@
-a{
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f8f8f5;
+    color: #111111;
+    padding: 60px 24px;
+}
+
+.skills,
+.prio {
+    max-width: 760px;
+    margin: 0 auto 24px;
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 18px;
+    padding: 28px;
+}
+
+h2 {
+    margin: 0 0 12px;
+    font-size: 36px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #d9d9d9;
+    margin: 0 0 20px;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 22px;
+    color: #666666;
+    line-height: 1.9;
+    font-size: 18px;
+}
+
+mark,
+.priority-highlight {
+    background: rgba(0, 128, 128, 0.12);
+    color: #111111;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+.prio a {
+    display: inline-block;
+    margin-top: 24px;
     text-decoration: none;
+    color: #111111;
+    border: 1px solid teal;
+    border-radius: 999px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 0 0 0 teal;
+}
+
+.prio a:hover {
+    transform: translate(-2px, -4px);
+    box-shadow: 2px 5px 0 0 teal;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 40px 18px;
+    }
+
+    .skills,
+    .prio {
+        padding: 22px 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    ul,
+    ol {
+        font-size: 17px;
+    }
 }

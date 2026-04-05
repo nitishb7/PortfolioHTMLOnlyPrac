@@ -1,127 +1,84 @@
 # Portfolio Website
 
-This project is a multi-page personal portfolio built with plain HTML, CSS, and a small amount of JavaScript.
+This project is a responsive personal portfolio website built with HTML, CSS, and JavaScript. It presents my background, skills, projects, experience, and contact information in a simple multi-page layout.
+
+## Project Overview
+
+The portfolio was created as a class project to practice:
+
+- semantic HTML structure
+- responsive CSS with media queries
+- basic JavaScript interactions
+- multi-page site organization
+
+## Features
+
+- Fixed top navigation on the home page
+- About Me section with extra text toggle
+- Projects page with project preview images and GitHub links
+- Skills page with current technologies and learning priorities
+- Education and Experience pages with simple responsive layouts
+- Contact page with form elements and basic JavaScript validation
+- Resume download button
+- Hire Me alert interaction
 
 ## Pages
 
-- `Index.html`: main landing page
-- `education.html`: education background
-- `projects.html`: project showcase
-- `experience.html`: experience page
-- `contact.html`: contact form and social links
+- `index.html` - landing page and About Me content
+- `projects.html` - project showcase with preview graphics
+- `skills.html` - technical skills and learning priorities
+- `education.html` - education summary
+- `experience.html` - experience summary
+- `contact.html` - contact form and contact links
 
-## Main Changes Made
+## Setup Instructions
 
-### Home Page
+1. Download or clone the project files.
+2. Open the project folder in VS Code or another editor.
+3. Open `index.html` in a browser.
+4. Navigate through the other pages using the links in the site.
 
-The home page was updated to use a cleaner layout with:
+## Screenshots
 
-- a fixed navigation bar
-- a profile image on the left
-- an introduction and role on the right
-- a short description below the role
-- action buttons for contact and resume download
-- a hobbies section below the profile section
+Screenshots can be captured from the following sections for submission:
 
-### Layout Improvements
+- Home page
+- Projects page
+- Contact page
+- Mobile responsive view
 
-The homepage layout now uses:
-
-- a `profile-row` section for the main image and text
-- a `text-column` wrapper to stack the title, description, and buttons vertically
-- an `action-buttons` row to place the buttons side by side
-
-This replaced earlier spacing attempts that relied too heavily on large margins.
-
-### Resume Download
-
-A JavaScript file was added:
-
-- `js/main.js`
-
-The `Download CV` button now triggers a download of:
-
-- `Docs/resume.docx`
-
-This is done by creating a temporary link in JavaScript and clicking it automatically.
-
-### Navigation Bar
-
-The navigation bar was changed to stay fixed at the top of the page.
-
-To support that:
-
-- `body` now has top padding
-- `.navbar` uses `position: fixed`
-- global `box-sizing: border-box` was added to prevent overflow issues
-
-### Hobbies Section
-
-A hobbies section was added below the main profile section on the home page.
-
-It includes:
-
-- Playing soccer
-- Playing video games
-- Traveling to new places
-- Reading autobiographies
-
-The hobbies section was moved outside the profile container so it appears below the main content instead of beside it.
-
-### Projects Page
-
-The Projects page was restyled to match the cleaner look of the home page.
-
-Changes include:
-
-- cleaner spacing
-- light background
-- simple project cards
-- simple rounded project links
-- corrected home link path to `Index.html`
-
-Files updated:
-
-- `projects.html`
-- `css/projects.css`
-
-### Education Page
-
-The Education page was simplified and cleaned up.
-
-Changes include:
-
-- a cleaner page header
-- a simple styled education table
-- removal of broken table markup
-- corrected home link path to `Index.html`
-
-Files updated:
-
-- `education.html`
-- `css/education.css`
-
-## Current Project Structure
+## Folder Structure
 
 ```text
 .
-|-- Index.html
-|-- education.html
+|-- index.html
 |-- projects.html
+|-- skills.html
+|-- education.html
 |-- experience.html
 |-- contact.html
 |-- README.md
 |-- css/
 |   |-- styles.css
-|   |-- education.css
 |   |-- projects.css
-|   |-- contact.css
 |   |-- skills.css
+|   |-- education.css
+|   |-- experience.css
+|   |-- contact.css
 |-- js/
-|   |-- main.js
-|-- Docs/
-|   |-- resume.docx
+|   |-- script.js
 |-- img/
 |   |-- profile.jpg
 |   |-- profile2.png
+|   |-- project-ai-automation.svg
+|   |-- project-chatbot.svg
+|-- Docs/
+|   |-- resume.docx
+|   |-- project-guidelines.docx
 ```
+
+## Notes
+
+- The site uses responsive layouts and media queries for smaller screens.
+- JavaScript interactions are stored in `js/script.js`.
+- The contact links can be updated with final personal profile URLs before submission.
