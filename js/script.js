@@ -1,8 +1,8 @@
-const downloadResumeButton = document.getElementById("download-resume-btn");
-const toggleAboutButton = document.getElementById("toggle-about-btn");
-const moreAboutText = document.getElementById("more-about-text");
-const contactForm = document.getElementById("contact-form");
-const feedbackMessage = document.getElementById("form-feedback");
+let downloadResumeButton = document.getElementById("download-resume-btn");
+let toggleAboutButton = document.getElementById("toggle-about-btn");
+let moreAboutText = document.getElementById("more-about-text");
+let contactForm = document.getElementById("contact-form");
+let feedbackMessage = document.getElementById("form-feedback");
 
 // Download the resume without navigating away from the portfolio.
 if (downloadResumeButton) {
